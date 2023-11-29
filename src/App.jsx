@@ -1,6 +1,3 @@
-import { useState } from 'react'
-
-import ReactDOM from 'react-dom/client'
 import Menu from './components/Menu/index.js'
 import Star from './components/Star'
 
