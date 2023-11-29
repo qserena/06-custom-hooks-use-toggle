@@ -11,7 +11,10 @@ import { BsStar, BsStarFill } from 'react-icons/bs'
  */
 
 export default function Star({ onChange }) {
-	const [on, toggle] = useToggle(false)
+	const [on, toggle] = useToggle({
+		initialValue: false,
+		onToggle: onChange,
+	})
 	return (
 		<div onClick={toggle}>
 			{on ? (
