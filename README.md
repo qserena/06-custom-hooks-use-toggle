@@ -5,7 +5,25 @@ This is an exercise in using the Toggle component to handle the state and the co
 
 The logic in the Toggle component are used to show (and hide) the dropdown menu in the Menu component.
 
-(the yellow star has nothing to do with this challenge, it is just there as another independent Toggle implementation)
+```
+import React from 'react'
+import useEffectOnUpdate from './useEffectOnUpdate'
+
+export default function useToggle({
+	initialValue = false,
+	onToggle = () => {},
+}) {
+	const [on, setOn] = React.useState(initialValue)
+
+	function toggle() {
+		setOn((prevOn) => !prevOn)
+	}
+
+	useEffectOnUpdate(onToggle, [on])
+
+	return [on, toggle]
+}
+```
   
 <br/>
 <img src="toggle-with-menu.png" alt="Screenshot." width="200px"/>
