@@ -1,8 +1,18 @@
-# React + Vite
+# Custom Hooks Use Toggle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is an exercise in using the Toggle component to handle the state and the context of the Menu component.
 
-Currently, two official plugins are available:
+The logic in the Toggle component are used to show (and hide) the dropdown menu in the Menu component.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+(the yellow star has nothing to do with this challenge, it is just there as another independent Toggle implementation)
+  
+<br/>
+<img src="toggle-with-menu.png" alt="Screenshot." width="200px"/>
+
+## Technologies
+- React
+
+## Live link
+This implementation is NOT deployed anywhere. 
+
