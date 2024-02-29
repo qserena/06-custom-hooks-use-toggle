@@ -1,7 +1,9 @@
-# Custom Hooks Use Toggle
+# Custom Hook Use Toggle
 
 ## Description
-A custom hook **useToggle** is created to achieve the same behavior as the React component Toggle in repository [04-headless-toggle-component](https://github.com/qserena/04-headless-toggle-component)
+A custom hook **useToggle** is created to achieve the same behavior as the React component Toggle in repository [04-headless-toggle-component](https://github.com/qserena/04-headless-toggle-component).
+
+useToggle uses another custom hook called **useEffectOnUpdate**, which is also contained in this repo.
 
 **useToggle custom hook:**
 ```
