@@ -26,12 +26,9 @@ export default function useToggle({
 }
 ```
   
-<br/>
-<img src="toggle-with-menu.png" alt="Screenshot." width="200px"/>
-
 ## Technologies
 - React
 
 ## Live link
-This implementation is NOT deployed anywhere. 
+This implementation is not deployed anywhere. 
 
