@@ -1,9 +1,7 @@
 # Custom Hooks Use Toggle
 
 ## Description
-This is an exercise in using the Toggle component to handle the state and the context of the Menu component.
-
-The logic in the Toggle component are used to show (and hide) the dropdown menu in the Menu component.
+A custom hook **useToggle** is created to achieve the same behavior as the React component Toggle in repository [04-headless-toggle-component](https://github.com/qserena/04-headless-toggle-component)
 
 **useToggle custom hook:**
 ```
